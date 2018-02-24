@@ -1,0 +1,19 @@
+ext {
+    isBuildApp = false
+
+    android = [
+            compileSdkVersion: 25,
+            buildToolsVersion: "25.0.2",
+            applicationId    : "com.jackson.baseview",
+            libApplicationId : "com.jackson.baseviewlib",
+            minSdkVersion    : 15,
+            targetSdkVersion : 25,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    dependencies = [
+            supportV7: 'com.android.support:appcompat-v7:25.3.1'
+    ]
+
+}
